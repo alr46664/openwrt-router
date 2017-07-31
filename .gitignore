@@ -1,0 +1,32 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+dev/
+hooks/
+img_projects/
+node_modules/
+platforms/
+dist/
+plugins/
+resources/
+to_test/
+www/
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.gif
+**/*.svg
+**/*.ico
+**/*.md
+**/*.pdf
+**/*.xls
+**/*.doc
+**/*.exe
+**/*.so
+**/*.sh
+conf.tar.gz
+.git
+.git_*
+.editorconfig
+.directory
+*.sublime-workspace
