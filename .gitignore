@@ -2,15 +2,17 @@
 # http://git-scm.com/docs/gitignore
 
 dev/
+proj/
 hooks/
 img_projects/
-node_modules/
+root_mount/
 platforms/
 dist/
 plugins/
 resources/
 to_test/
-www/
+cgi-bin/
+root_mount/
 **/*.png
 **/*.jpg
 **/*.jpeg
@@ -23,10 +25,19 @@ www/
 **/*.doc
 **/*.exe
 **/*.so
-**/*.sh
-conf.tar.gz
+*.sh
+*.sublime-*
 .git
 .git_*
 .editorconfig
 .directory
-*.sublime-workspace
+.babelrc
+.bowerrc
+.eslintrc.json
+.sass-lint.yml
+conf.tar.gz
+bower.json
+gulpfile.js
+Electron/*.sh
+Electron/node_modules/
+Electron/package.json

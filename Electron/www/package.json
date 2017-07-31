@@ -1,0 +1,17 @@
+{
+  "name": "proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "run": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ssh2": "^0.5.5"
+  },
+  "devDependencies": {
+    "electron-reload": "^1.2.1"
+  }
+}
